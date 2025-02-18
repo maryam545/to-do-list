@@ -7,12 +7,6 @@ add.addEventListener("click", () => {
     const newTask = document.createElement("li");
     newTask.textContent = input.value;
     taskList.appendChild(newTask);
-    input.
+    input.value = "";
   }
 });
-
-//     taskList.appendChild(newTask);
-
-//     input.value = "";
-//   }
-// });
